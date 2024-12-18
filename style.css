@@ -1,0 +1,53 @@
+/* Header para PC */
+.logo-img-container a img {
+    transform: scale(1.5) translateY(-5px);
+}
+
+.js-nav-desktop-list.nav-desktop-list li a {
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+
+.js-nav-desktop-list.nav-desktop-list li a:hover {
+   border: 2px solid #fff;
+    color: #fff;
+    transition: all .4s ease-in;
+}
+
+.js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-right.nav-desktop-list-arrow.nav-desktop-list-arrow-right,
+.js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-left.nav-desktop-list-arrow.nav-desktop-list-arrow-left {
+
+    fill: #000;
+
+}
+
+.js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-right.nav-desktop-list-arrow.nav-desktop-list-arrow-right:hover,
+.js-nav-desktop-list-arrow.js-nav-desktop-list-arrow-left.nav-desktop-list-arrow.nav-desktop-list-arrow-left:hover {
+
+    fill: #fff;
+    transition: all .4s ease-in;
+
+}
+
+.js-nav-desktop-list.nav-desktop-list li a:hover {
+    border: 2px solid #fff;
+     color: #fff;
+     transition: all .4s ease-in;
+}
+
+.js-search-button.js-modal-open.js-fullscreen-modal-open.btn.btn-utility.utilities-item {
+    border-radius: 10px;
+}
+
+.js-search-button.js-modal-open.js-fullscreen-modal-open.btn.btn-utility.utilities-item:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    fill: #fff;
+    transition: all .4s ease-in;
+}
+
+
