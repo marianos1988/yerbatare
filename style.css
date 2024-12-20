@@ -67,4 +67,86 @@
     transform: translateX(-8px)
 }
 
+.js-modal-open.js-fullscreen-modal-open.btn.btn-utility.position-relative.pr-0 .badge {
+    transform: translate(-11px, -2px);
+}
 
+
+
+
+/* Header Mobile */
+
+.utilities-container.d-inline-block .js-modal-open.utilities-item.btn.btn-utility.pl-0:hover {
+    fill: #fff;
+}
+
+
+
+
+
+
+
+
+/* MENU version Mobile*/
+.js-modal.modal.modal-nav-hamburger.pb-0.modal-left.modal--md.transition-slide.modal-drawer.transition-soft.modal-show {
+    border-right: 2px solid #80aa8d;
+}
+
+.js-modal-overlay.modal-overlay {
+    background-color: #000;
+} 
+
+
+.form-group.m-0 .js-search-input.form-control.search-input {
+
+    border: 1px #80aa8d solid;
+    color: #fff;
+
+}
+
+.form-group.m-0 .js-search-input.form-control.search-input:focus {
+
+    border: 2px #80aa8d solid;
+    -webkit-box-shadow: 0px 0px 17px 4px rgba(128,170,141,1);
+-moz-box-shadow: 0px 0px 17px 4px rgba(128,170,141,1);
+box-shadow: 0px 0px 17px 4px rgba(128,170,141,1);
+transition: all .4 ease-in;
+
+}
+
+.form-group.m-0 .js-search-input-submit.search-btn.search-submit-btn:hover {
+
+    color: #80aa8d;
+    transform: scale(1.2);
+    transition: all .4s ease-in;
+}
+
+.nav-primary .nav-list .js-desktop-nav-item.nav-item {
+    border-top: 2px solid #80aa8d;
+}
+.nav-primary .nav-list .js-desktop-nav-item.nav-item:nth-child(3) {
+    border-top: 2px solid #80aa8d;
+    border-bottom: 2px solid #80aa8d;
+}
+
+.nav-primary .nav-list .js-desktop-nav-item.nav-item:hover {
+    background-color: #ddd;
+    color: #80aa8d;
+    transition: all .4s ease-in;
+}
+
+.nav-primary .nav-list .js-desktop-nav-item.nav-item a:hover {
+
+    color: #80aa8d;
+    transition: all .4s ease-in;
+}
+
+.js-modal-close.modal-header.modal-header-no-title.modal-close.modal-close-floating.js-toggle-menu-close .icon-inline.svg-icon-text {
+    fill: #fff;
+}
+
+.js-modal-close.modal-header.modal-header-no-title.modal-close.modal-close-floating.js-toggle-menu-close .icon-inline.svg-icon-text:hover {
+
+    fill: #80aa8d;
+    transition: all .4s ease-in;
+}
