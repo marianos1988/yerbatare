@@ -148,5 +148,29 @@ transition: all .4 ease-in;
 .js-modal-close.modal-header.modal-header-no-title.modal-close.modal-close-floating.js-toggle-menu-close .icon-inline.svg-icon-text:hover {
 
     fill: #80aa8d;
-    transition: all .4s ease-in;
 }
+
+.nav-secondary.text-left {
+    background-color: #80aa8d;
+}
+
+.col.pl-2.text-left .mr-1,
+.col.pl-2.text-left .ml-1:hover {
+    color: #fff;
+}
+
+.col.pl-2.text-left .mr-1:hover,
+.col.pl-2.text-left .ml-1:hover {
+    color: #000000 !important;
+    transition:all .4s ease-in;
+}
+
+.nav-secondary.text-left {
+    border-top: 3px solid #fff;
+    background-color: #80aa8d;
+}
+
+
+.col-auto.pr-0.icon-inline.font-big .r-1 {
+    fill: #000,
+    }
