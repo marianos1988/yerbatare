@@ -173,4 +173,54 @@ transition: all .4 ease-in;
 
 .col-auto.pr-0.icon-inline.font-big .r-1 {
     fill: #000,
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* HEADER*/
+
+    .container.text-center .mb-4.pb-2 img {
+         transform: scale(2)
+
+    }
+
+
+
+
+
+
+/*SEction*/
+
+.col-md-8 .js-welcome-message-title.mb-3 {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+
+.col-md-8 .js-welcome-message-text.mb-4 {
+    font-size: 16px;
+}
+
+
+
+
+    /*FOOTER*/
+    .mb-4 .social-icon .icon-inline.icon-lg:hover {
+fill: #000000 !important;
+        transition:all .4s ease-in;
+    }
+
+    .footer-menu-item .footer-menu-link {
+        color: #000000 !important;
+        transition:all .4s ease-in;
     }
