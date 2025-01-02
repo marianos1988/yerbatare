@@ -215,12 +215,56 @@ transition: all .4 ease-in;
 
 
     /*FOOTER*/
-    .mb-4 .social-icon .icon-inline.icon-lg:hover {
-fill: #000000 !important;
-        transition:all .4s ease-in;
-    }
+.mb-4 .social-icon .icon-inline.icon-lg:hover {
+    fill: #000000 !important;
+    transition:all .4s ease-in;
+}
 
-    .footer-menu-item .footer-menu-link {
-        color: #000000 !important;
-        transition:all .4s ease-in;
-    }
+.footer-menu-item .footer-menu-link {
+    color: #000000 !important;
+    transition:all .4s ease-in;
+}
+
+.my-2 .powered-by-logo a {
+    display: none;
+}
+
+.claim-link.d-md-inline-block.mt-md-0.mt-3.font-smallest .d-inline-block.mb-2 a:hover {
+    fill: #000000 !important;
+    transition:all .4s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+/*Contacto*/
+.js-form.form.js-winnie-pooh-form .form-group .form-label {
+    font-size: 16px;
+}
+
+.js-form.form.js-winnie-pooh-form .form-group input:focus,
+.js-form.form.js-winnie-pooh-form .form-group textarea:focus {
+
+    border: 2px #80aa8d solid;
+    -webkit-box-shadow: 0px 0px 17px 4px rgba(128,170,141,1);
+-moz-box-shadow: 0px 0px 17px 4px rgba(128,170,141,1);
+box-shadow: 0px 0px 17px 4px rgba(128,170,141,1);
+transition: all .4 ease-in;
+
+}
+
+.js-form.form.js-winnie-pooh-form .btn.btn-primary.btn-big.btn-block:hover {
+    color: #fff;
+    border: 2px #000 solid;
+    background-color: #5b7965;
+    transition: all .4 ease-in;
+
+    
+
+}
