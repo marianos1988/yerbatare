@@ -72,7 +72,10 @@
 }
 
 
+.container .desktop-list-subitems.list-subitems { 
+    text-align: center;
 
+}
 
 /* Header Mobile */
 
@@ -127,6 +130,10 @@ transition: all .4 ease-in;
 .nav-primary .nav-list .js-desktop-nav-item.nav-item:nth-child(3) {
     border-top: 2px solid #80aa8d;
     border-bottom: 2px solid #80aa8d;
+}
+
+.nav-item.item-with-subitems {
+    border-top: 2px solid #80aa8d;
 }
 
 .nav-primary .nav-list .js-desktop-nav-item.nav-item:hover {
