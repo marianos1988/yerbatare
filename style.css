@@ -132,7 +132,7 @@ transition: all .4 ease-in;
     border-bottom: 2px solid #80aa8d;
 }
 
-.nav-item.item-with-subitems {
+.nav-primary .nav-list .nav-item.item-with-subitems {
     border-top: 2px solid #80aa8d;
 }
 
@@ -303,7 +303,8 @@ transition: all .4 ease-in;
 .item-description.text-center a .js-item-name.item-name.mb-2.font-small.opacity-80 {
     font-weight: 900;
     color: #9dbe8d;
-    transform: scale(1.8);
+    font-size: 17px !important;
+
 }
 
 .item-description.text-center .item-link:hover {
@@ -338,3 +339,11 @@ transition: all .4 ease-in;
 .js-product-slide-link.d-block.position-relative img {
     border-radius: 20px;
 }
+
+
+
+
+
+
+
+
